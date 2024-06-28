@@ -1,12 +1,17 @@
 # Automatic weather stations <!-- - Measurement values -->
 The stations of the SwissMetNet ground monitoring network measure wind, radiation, pressure, humidity, precipitation, sunshine and temperature every 10 minutes.
 
-If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [granularity](). Various [update frequencies]() (every 10 minutes to once a year) are available. 
+If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity). Various [update frequencies](https://github.com/MeteoSwiss/ogd-general/tree/main#data-structure-and-update-cycle) (every 10 minutes to once a year) are available. 
 
 We offer both
 - the [current measured values of the main parameters of all stations in a single data file](..), and
 - the [measured values of all parameters in a single file per station](..).
 
+
+---
+
+
+See [time stamps and intervals](https://github.com/MeteoSwiss/ogd-general/tree/main#time-stamps-and-time-intervals) as well as [column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/ogd-general/tree/main#column-separators-decimal-dividers-and-missing-values).
 
 ---
 ---
