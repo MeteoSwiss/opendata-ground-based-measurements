@@ -1,4 +1,4 @@
-# Automatic weather stations - Measurement values
+# Automatic weather stations <!-- - Measurement values -->
 The stations of the SwissMetNet ground monitoring network measure wind, radiation, pressure, humidity, precipitation, sunshine and temperature every 10 minutes.
 
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [granularity](). Various [update frequencies]() (every 10 minutes to once a year) are available. 
