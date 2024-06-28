@@ -3,8 +3,12 @@ The stations of the SwissMetNet ground monitoring network measure wind, radiatio
 
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [granularity](). Various [update frequencies]() (every 10 minutes to once a year) are available. 
 
-On the one hand we offer the [current measured values of the main parameters of all stations](..) in a single data file, on the other hand the [measured values of all parameters in one data file per station](..).
+We offer both
+- the [current measured values of the main parameters of all stations in a single data file](..), and
+- the [measured values of all parameters in a single file per station](..).
 
+
+---
 ---
 
 
