@@ -1,12 +1,12 @@
 # Ground-based Measurements
 ...
 
-1. [Automatic weather stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
-2. [Automatic precipitation stations](https://github.com/MeteoSwiss/ogd-smn-precip/tree/main?tab=readme-ov-file#readme)
-3. [Automatic boundary layer stations](https://github.com/MeteoSwiss/ogd-smn-tower/tree/main?tab=readme-ov-file#readme)
-4. [Manual precipitation stations](https://github.com/MeteoSwiss/ogd-nime/tree/main?tab=readme-ov-file#readme)
-5. [Totaliser precipitation stations](https://github.com/MeteoSwiss/ogd-tot/tree/main?tab=readme-ov-file#readme)
-6. [Pollen stations](https://github.com/MeteoSwiss/ogd-pollen/tree/main?tab=readme-ov-file#readme)
+1. [Automatic weather stations](#automatic-weather-stations)
+3. [Automatic precipitation stations](#...)
+4. [Automatic boundary layer stations](#...)
+5. [Manual precipitation stations](#...)
+6. [Totaliser precipitation stations](#...)
+7. [Pollen stations](#...)
 
 ---
 
@@ -29,7 +29,7 @@ See [time stamps and intervals](https://github.com/MeteoSwiss/ogd-general/tree/m
 ### Codes
 ...
 
-### Station Metadata
+### Station metadata
 ...
 
 ---
