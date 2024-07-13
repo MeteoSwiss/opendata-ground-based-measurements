@@ -1,4 +1,4 @@
-# A. Ground-based Measurements
+# Ground-based Measurements
 1. [Automatic weather stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
 2. [Automatic precipitation stations](https://github.com/MeteoSwiss/ogd-smn-precip/tree/main?tab=readme-ov-file#readme)
 3. [Automatic boundary layer stations](https://github.com/MeteoSwiss/ogd-smn-tower/tree/main?tab=readme-ov-file#readme)
