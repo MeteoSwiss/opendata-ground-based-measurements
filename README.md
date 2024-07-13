@@ -1,4 +1,14 @@
-# Automatic weather stations <!-- - Measurement values -->
+# A. Ground-based Measurements
+1. [Automatic weather stations](https://github.com/MeteoSwiss/ogd-smn/tree/main?tab=readme-ov-file#readme)
+2. [Automatic precipitation stations](https://github.com/MeteoSwiss/ogd-smn-precip/tree/main?tab=readme-ov-file#readme)
+3. [Automatic boundary layer stations](https://github.com/MeteoSwiss/ogd-smn-tower/tree/main?tab=readme-ov-file#readme)
+4. [Manual precipitation stations](https://github.com/MeteoSwiss/ogd-nime/tree/main?tab=readme-ov-file#readme)
+5. [Totaliser precipitation stations](https://github.com/MeteoSwiss/ogd-tot/tree/main?tab=readme-ov-file#readme)
+6. [Pollen stations](https://github.com/MeteoSwiss/ogd-pollen/tree/main?tab=readme-ov-file#readme)
+
+---
+
+## Automatic weather stations 
 The stations of the SwissMetNet ground monitoring network measure wind, radiation, pressure, humidity, precipitation, sunshine and temperature every 10 minutes.
 
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity). Various [update frequencies](https://github.com/MeteoSwiss/ogd-general/tree/main#data-structure-and-update-cycle) (every 10 minutes to once a year) are available. 
@@ -7,11 +17,18 @@ We offer both
 - the [current measured values of the main parameters of all stations in a single data file](..), and
 - the [measured values of all parameters in a single file per station](..).
 
-
----
-
-
 See [time stamps and intervals](https://github.com/MeteoSwiss/ogd-general/tree/main#time-stamps-and-time-intervals) as well as [column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/ogd-general/tree/main#column-separators-decimal-dividers-and-missing-values).
+
+...
+
+### Parameter metadata
+...
+
+### Codes
+...
+
+### Station Metadata
+...
 
 ---
 ---
