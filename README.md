@@ -2,11 +2,11 @@
 ...
 
 1. [Automatic weather stations](#1-automatic-weather-stations)
-3. [Automatic precipitation stations](#...)
-4. [Automatic boundary layer stations](#...)
-5. [Manual precipitation stations](#...)
-6. [Totaliser precipitation stations](#...)
-7. [Pollen stations](#...)
+2. [Automatic precipitation stations](#2-automatic-precipitation-stations)
+3. [Automatic boundary layer stations](#3-automatic-boundary-layer-stations)
+4. [Manual precipitation stations](#4-manual-precipitation-stations)
+5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations)
+6. [Pollen stations](#6-pollen-stations)
 
 ---
 
@@ -31,6 +31,22 @@ See [time stamps and intervals](https://github.com/MeteoSwiss/ogd-general/tree/m
 
 ### Station metadata
 ...
+
+## 2. Automatic precipitation stations
+...
+
+## 3. Automatic boundary layer stations
+...
+
+## 4. Manual precipitation stations
+...
+
+## 5. Totaliser precipitation stations
+...
+
+## 6. Pollen stations
+...
+
 
 ---
 ---
