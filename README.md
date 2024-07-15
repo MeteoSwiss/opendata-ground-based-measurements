@@ -50,7 +50,7 @@ MeteoSwiss operates the [national pollen monitoring network](https://www.meteosw
 ### Data granularities and update frequencies
 Per station there are files of [data granularities](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `H`, `D`, `M`, `Y` and [update frequencies](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) yearly (`historical`), daily (`recent`) or hourly (`now`).
 
-See one (example!) data file: [`pollen`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen).
+See (example!) data files: [`pollen`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen).
 
 ### Parameter metadata
 See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity):
