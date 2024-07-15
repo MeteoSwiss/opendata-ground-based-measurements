@@ -55,7 +55,7 @@ See (example!) data files: [`pollen`](https://github.com/MeteoSwiss/publication-
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of 0.6 MB per file.
 
 ### Parameter metadata
-See (example!) parameter metadata files of [data granularities](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) [`H`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-H.csv) and [`D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-D.csv).
+See (example!) parameter metadata files of [data granularities](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`H`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-H.csv) and [`D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-D.csv).
 
 <!-- ### Codes -->
 <!-- ... -->
