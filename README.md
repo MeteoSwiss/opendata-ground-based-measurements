@@ -1,7 +1,5 @@
 # A. Ground-based Measurements
-MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of pollen.
-
-All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according station metadata section.
+MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather *and climate* data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements (1-6) are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover (7) and vegetation development (8):
 
 1. [Automatic weather stations](#1-automatic-weather-stations)
 2. [Automatic precipitation stations](#2-automatic-precipitation-stations)
@@ -11,6 +9,8 @@ All MeteoSwiss surface stations have a name and an identfier consisting of three
 6. [Pollen stations](#6-pollen-stations)
 7. [Meteorological visual observations](#7-meteorological-visual-observations)
 8. [Phenological observations](#8-phenological-observations)
+
+All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according station metadata section.
 
 ---
 
