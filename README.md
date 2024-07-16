@@ -2,7 +2,7 @@
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels.
 
 > [!NOTE]
-> For climate analyses, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data).
+> For **climate analyses**, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data).
 
 The following measurements (1-6) and additional observations - manual recording of cloud cover (7) and vegetation development (8) - are available:
 
