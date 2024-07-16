@@ -21,7 +21,9 @@ All MeteoSwiss surface stations have a name and an identfier consisting of three
 ---
 
 ## 1. Automatic weather stations 
-The stations of the SwissMetNet ground monitoring network measure wind, radiation, pressure, humidity, precipitation, sunshine and temperature every 10 minutes.
+Around 160 stations of the [automatic measurement network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html) SwissMetNet comprise a complete measurement programme. They deliver wind, radiation, pressure, humidity, precipitation, sunshine and temperature every ten minutes.
+
+The network is supplemented by around 100 [automatic precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations). Together, these stations form the basis for the creation of reliable local weather forecasts as well as severe weather and flood warnings. Additionally MeteoSwiss operates three [tower stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-boundary-layer-stations) at 150m to 230m above ground for boundry layer measurements.
 
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity). Various [update frequencies](https://github.com/MeteoSwiss/ogd-general/tree/main#data-structure-and-update-cycle) (every 10 minutes to once a year) are available. 
 
@@ -32,6 +34,8 @@ We offer both
 *See [time stamps and intervals](https://github.com/MeteoSwiss/ogd-general/tree/main#time-stamps-and-time-intervals) as well as [column separators, decimal dividers and missing values](https://github.com/MeteoSwiss/ogd-general/tree/main#column-separators-decimal-dividers-and-missing-values).*
 
 ...
+
+The time series can begin before the introduction of automatic measurements in 1981; the three manually measured values per day are stored as individual 10-minute values ("term values").
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
