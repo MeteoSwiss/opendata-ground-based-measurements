@@ -1,5 +1,7 @@
 # A. Ground-based Measurements
-...
+MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels. The measurements are supplemented with a wide array of additional observations, ranging from manual recording of cloud cover and vegetation development, to measurements of pollen.
+
+All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according station metadata section.
 
 1. [Automatic weather stations](#1-automatic-weather-stations)
 2. [Automatic precipitation stations](#2-automatic-precipitation-stations)
@@ -7,6 +9,8 @@
 4. [Manual precipitation stations](#4-manual-precipitation-stations)
 5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations)
 6. [Pollen stations](#6-pollen-stations)
+7. [Meteorological visual observations](#7-meteorological-visual-observations)
+8. [Phenological observations](#8-phenological-observations)
 
 ---
 
@@ -162,6 +166,53 @@ See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz
 ### Data visualisation
 See e.g. MeteoSwiss' [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false&station=PLZ&chart=day).
 
+## 7. Meteorological visual observations
+... 
+
+...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+See (example!) [station metadata file](...).
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
+
+## 8. Phenological observations
+... 
+
+...
+
+### Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ... MB per file.
+
+See (example!) data files: [`...`](...).
+
+### Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### Station metadata
+See (example!) [station metadata file](...).
+
+### Data visualisation
+See e.g. MeteoSwiss' [...](...).
 
 
 ---
