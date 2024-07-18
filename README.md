@@ -61,7 +61,7 @@ The productive version will provide a station metadata file with the file name: 
 ### Data visualisation
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
 
-## 2. Automatic precipitation stations
+<!-- ## 2. Automatic precipitation stations
 ... 
 
 ...
@@ -155,7 +155,7 @@ See (example!) parameter metadata files of [data granularity](https://github.com
 See (example!) [station metadata file](...).
 
 ### Data visualisation
-See e.g. MeteoSwiss' [...](...).
+See e.g. MeteoSwiss' [...](...). -->
 
 ## 6. Pollen stations
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. 
