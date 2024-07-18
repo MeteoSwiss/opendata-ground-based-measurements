@@ -1,6 +1,6 @@
 [MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > A. Ground-based Measurements
 
-# A. Ground-based Measurements
+# A. Ground-based Measurements :yellow_circle:
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels.
 
 > [!NOTE]
@@ -13,7 +13,7 @@ The following measurements (1-6) and additional observations - manual recording 
 3. [Automatic boundary layer stations](#3-automatic-boundary-layer-stations)
 4. [Manual precipitation stations](#4-manual-precipitation-stations)
 5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations)
-6. [Pollen stations](#6-pollen-stations)
+6. [Pollen stations](#6-pollen-stations) :yellow_circle:
 7. [Meteorological visual observations](#7-meteorological-visual-observations)
 8. [Phenological observations](#8-phenological-observations)
 
@@ -154,7 +154,7 @@ See (example!) [station metadata file](...).
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
 
-## 6. Pollen stations
+## 6. Pollen stations :yellow_circle:
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of 14 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies. 
 
 Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is operational: for the first time in the world, instead of daily averages being available after a week, information is available in real time at an hourly resolution.
