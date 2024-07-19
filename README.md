@@ -60,6 +60,8 @@ The productive version will provide a station metadata file with the file name: 
 ### 1.4. Data visualisation
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
 
+<br>
+
 ## 2. Automatic precipitation stations
 As a meteorological parameter, precipitation exhibits a very high spatial variability and requires therefore a denser measurement network. In supplement to [1. Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations) MeteoSwiss thus operates about 100 additional stations for the [automatic measurement of precipitation](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html).
 
@@ -77,27 +79,30 @@ Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readm
 See (example!) data files for station `AIR` for all granularities and update frequencies mentioned: [`ogd-smn-precip_AIR_(granularity code)_(update frequency code)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip).
 
 ### 2.2. Parameter metadata
-For (example!) parameter metadata files see [1.3. Parameter metadata](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-3-parameter-metadata) above.
+For (example!) parameter metadata files see [1.3. Parameter metadata](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#12-parameter-metadata) above.
 
 The productive version will provide a single parameter metadata file for all granularities; file name: `ogd-smn-precip_meta_parameters.csv`.
 
-<!-- ### Codes -->
+<!-- *** Codes -->
 <!-- ... -->
 
-### Station metadata
+### 2.3. Station metadata
 See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv).
 
 The productive version will provide a station metadata file with the file name: `ogd-smn-precip_meta_stations.csv`.
 
-### Data visualisation
+### 2.4. Data visualisation
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
 
+<br>
+
 ## 3. Automatic tower stations
-In supplement to [1. Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations) above, MCH operates 3 [automatic tower stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations).
+As a meteorological parameter, precipitation exhibits a very high spatial variability and requires therefore a denser measurement network. In supplement to [1. Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations) MeteoSwiss thus operates about 100 additional stations for the [automatic measurement of precipitation](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-measurement-network.html).
 
-*These stations measure ...*
+> [!NOTE]
+> If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity). Various [update frequencies](https://github.com/MeteoSwiss/ogd-general/tree/main#data-structure-and-update-cycle) (every 10 minutes to once a year) are available. 
 
-### Data granularity, update frequency, format and volume
+### 3.1. Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
 
 > [!NOTE]
@@ -107,20 +112,20 @@ Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readm
 
 See (example!) data files for station `AIR` for all granularities and update frequencies mentioned: [`ogd-smn-precip_AIR_(granularity code)_(update frequency code)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip).
 
-### Parameter metadata
-For (example!) parameter metadata files see [1. Automatic weather stations - Parameter metadata](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#parameter-metadata) above.
+### 3.2. Parameter metadata
+For (example!) parameter metadata files see [1.3. Parameter metadata](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#12-parameter-metadata) above.
 
 The productive version will provide a single parameter metadata file for all granularities; file name: `ogd-smn-precip_meta_parameters.csv`.
 
-<!-- ### Codes -->
+<!-- *** Codes -->
 <!-- ... -->
 
-### Station metadata
+### 3.3. Station metadata
 See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-automatisch/ch.meteoschweiz.messnetz-automatisch_en.csv).
 
 The productive version will provide a station metadata file with the file name: `ogd-smn-precip_meta_stations.csv`.
 
-### Data visualisation
+### 3.4. Data visualisation
 See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
 
 ## 4. Manual precipitation stations
