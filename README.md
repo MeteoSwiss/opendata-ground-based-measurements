@@ -10,7 +10,7 @@ The following measurements (1-6) and additional observations - manual recording 
 
 1. [Automatic weather stations](#1-automatic-weather-stations) :yellow_circle: *in review by surface data team*
 2. [Automatic precipitation stations](#2-automatic-precipitation-stations) :yellow_circle: *in review by surface data team*
-3. [Automatic tower stations](#3-automatic-tower-stations)
+3. [Automatic tower stations](#3-automatic-tower-stations) :yellow_circle: *in review by surface data team*
 4. [Manual precipitation stations](#4-manual-precipitation-stations)
 5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations)
 6. [Pollen stations](#6-pollen-stations) :yellow_circle: *in review by surface data team*
