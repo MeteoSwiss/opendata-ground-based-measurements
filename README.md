@@ -10,7 +10,7 @@ The following measurements (1-6) and additional observations - manual recording 
 
 1. [Automatic weather stations](#1-automatic-weather-stations) :yellow_circle: *in review by surface data team*
 2. [Automatic precipitation stations](#2-automatic-precipitation-stations) :yellow_circle: *in review by surface data team*
-3. [Automatic towerr stations](#3-automatic-tower-stations)
+3. [Automatic tower stations](#3-automatic-tower-stations)
 4. [Manual precipitation stations](#4-manual-precipitation-stations)
 5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations)
 6. [Pollen stations](#6-pollen-stations) :yellow_circle: *in review by surface data team*
@@ -100,11 +100,11 @@ For boundary layer measurements MeteoSwis operates 3 automatic tower stations at
 ### 3.1. Data granularity, update frequency, format and volume
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`),
 
-Time series can begin before the introduction of automatic measurements in the year 1981; the three manually measured values per day are stored as individual 10-minute values ("term values").
+*Time series can begin before the introduction of automatic measurements in the year 1981; the three manually measured values per day are stored as individual 10-minute values ("term values").*
 
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ≤5.3 MB per file.
 
-See (example!) data files for station `AIR` for all granularities and update frequencies mentioned: [`ogd-smn-precip_AIR_(granularity code)_(update frequency code)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-precip).
+See (example!) data files for station `UEB` for all granularities and update frequencies mentioned: [`ogd-smn-tower_UEB_(granularity code)_(update frequency code)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/automatic-weather-stations/smn-tower).
 
 ### 3.2. Parameter metadata
 For (example!) parameter metadata files see [1.2. Parameter metadata](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#12-parameter-metadata) above.
@@ -120,7 +120,7 @@ See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz
 The productive version will provide a station metadata file with the file name: `ogd-smn-precip_meta_stations.csv`.
 
 ### 3.4. Data visualisation
-See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en).
+*See ... .*
 
 <br>
 
