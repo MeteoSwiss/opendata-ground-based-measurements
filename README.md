@@ -12,7 +12,7 @@ The following measurements (1-6) and additional observations - manual recording 
 2. [Automatic precipitation stations](#2-automatic-precipitation-stations) :yellow_circle: *in review by surface data team*
 3. [Automatic tower stations](#3-automatic-tower-stations) :yellow_circle: *in review by surface data team*
 4. [Manual precipitation stations](#4-manual-precipitation-stations) :yellow_circle: *in review by surface data team*
-5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations)
+5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations) :yellow_circle: *in review by surface data team*
 6. [Pollen stations](#6-pollen-stations) :yellow_circle: *in review by surface data team*
 7. [Meteorological visual observations](#7-meteorological-visual-observations)
 8. [Phenological observations](#8-phenological-observations)
@@ -160,7 +160,33 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 <br>
 
 ## 5. Totaliser precipitation stations
-... 
+In supplement to [4. Manual precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#4-manual-precipitation-stations) in mountainous areas that are difficult to access, MeteoSwiss operates around 57 totalisers which record the volume of precipitation for an entire year.
+
+> [!NOTE]
+> For **climate analyses**, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data) instead.
+
+### 5.1. Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) yearly (`historical`) for each station.
+
+See (example!) data file for station `MGR`: [`ogd-tot_MGR_(granularity code)_(update frequency code)`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/manual-precipitation-stations-tot/tot_Y_MGR.csv).
+
+Data format of all files is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ≤0.6 MB per file.
+
+### 5.2. Parameter metadata
+See (example!) parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-tot-Y.csv).
+
+The productive version will provide a parameter metadata file with the name: `ogd-tot_meta_parameters.csv`.
+
+<!-- **Codes** -->
+<!-- ... -->
+
+### 5.3. Station metadata
+See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-manuell/ch.meteoschweiz.messnetz-manuell_en.csv).
+
+The productive version will provide a station metadata file with the file name: `ogd-tot_meta_stations.csv`.
+
+### 5.4. Data visualisation
+See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en&table=false). 
 
 <br>
 
