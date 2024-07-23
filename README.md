@@ -199,6 +199,38 @@ There are files of [data granularity](https://github.com/MeteoSwiss/opendata-dow
 
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of 0.6 MB per file.
 
+See (example!) data files for station `PBS` for granularities `H` and `D` and update frequencies `recent` and `historical`: [`ogd-pollen_PBS_(data granularity)_(update frequency)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen).
+
+### 6.2. Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`H`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-H.csv) and [`D`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-pollen-D.csv).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### 6.3. Station metadata
+See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-pollen/ch.meteoschweiz.messnetz-pollen_en.csv).
+
+### 6.4. Data visualisation
+See e.g. MeteoSwiss' [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false&station=PLZ&chart=day).
+
+<br>
+
+## 7. Meteorological visual observations
+MeteoSwiss' data on current weather events is supplemented by [visual human observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html), which describe the atmospheric conditions around the observation sites in detail.
+
+Meteorological observers make visual observations and take readings from measurement instruments between two and eight times per day every day of the year at around 20 locations in Switzerland. The following aspects are observed:
+- Meteorological visibility
+- Current weather: e.g. moderate rain showers, snowfall, fog with formation of hoarfrost
+- Past weather: the main weather phenomena during the past 3, 6 or 12 hours, e.g. thunderstorms, drizzle, drifting snow
+- Ground conditions: e.g. powder snow covering the entire ground surface; frozen; damp
+- Clouds: extent of total cloud cover, type and shape of visible clouds, the altitude of the cloud base
+- Mesurement of fresh and total snow depth
+
+### 6.1. Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `T` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ≤0.04 MB per file.
+
 See (example!) data files: [`pollen`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen).
 
 ### 6.2. Parameter metadata
@@ -213,7 +245,28 @@ See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz
 ### 6.4. Data visualisation
 See e.g. MeteoSwiss' [POLLEN network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-pollen&lang=en&table=false&station=PLZ&chart=day).
 
-## 7. Meteorological visual observations
+<br>
+
+
+
+
+
+
+The information on current weather events is supplemented by [visual human observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html). The atmospheric conditions around the observation site are described in detail.
+
+| *Dataset title*                | Measurement data from visual observations |
+| :----------------------------- | :---------------------------------------- |
+| *Data structure*               | see example files: [`obs`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/visual-observations-obs) |
+| [*Data granularity*](https://github.com/MeteoSwiss/publication-opendata/tree/main#221-data-granularity) | `T` |
+| [*Update frequency*](https://github.com/MeteoSwiss/publication-opendata/tree/main#222-data-structure-and-update-cycle) | yearly (`historical`), daily (`recent`) or hourly (`now`) |
+| *Format*                       | [`CSV`](https://github.com/MeteoSwiss/publication-opendata/tree/main#224-column-separators-decimal-dividers-and-missing-values) |
+| *Volume*                       | ≤0.04 MB |
+| *Visualisation*                | [OBS network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-manuell&lang=en) |
+| *Station metadata*             | see [station list (CSV)](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-beobachtungen/ch.meteoschweiz.messnetz-beobachtungen_en.csv) |
+| *Parameter metadata*           | see parameter file: [`obs-T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv) |
+| *Additional remarks*           | One file per station. |
+
+
 ... 
 
 <br>
