@@ -234,7 +234,7 @@ Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readm
 See (example!) data files for station `BAS` for granularity `T` and update frequencies `now`, `recent` and `historical`: [`ogd-obs_BAS_T_(update frequency)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/visual-observations-obs).
 
 ### 7.2. Parameter metadata
-See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv).
+See (example!) parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`T`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-obs-T.csv).
 
 <!-- ### Codes -->
 <!-- ... -->
@@ -248,6 +248,25 @@ See e.g. MeteoSwiss' [OBS network map](https://www.meteoswiss.admin.ch/services-
 <br>
 
 ## 8. Phenological observations
-... 
+The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
-<brt>
+### 8.1. Data granularity, update frequency, format and volume
+There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) daily (`recent`) or yearly (`historical`) for each station.
+
+Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ≤7.1 MB per file.
+
+See (example!) data files for granularity `Y` and update frequencies `recent` and `historical`: [`ogd-phenology_(station identifier)_Y_(update frequency)`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/phenology).
+
+### 8.2. Parameter metadata
+See (example!) parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`Y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
+
+<!-- ### Codes -->
+<!-- ... -->
+
+### 8.3. Station metadata
+See (example!) [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv).
+
+### 8.4. Data visualisation
+See e.g. MeteoSwiss' [PHENOLOGY network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false).
+
+<br>
