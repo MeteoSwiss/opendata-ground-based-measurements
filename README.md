@@ -96,7 +96,7 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 <br>
 
 ## 3. Automatic tower stations
-For boundary layer measurements MeteoSwis operates 3 automatic tower stations at 150m to 230m above ground. They deliver data every ten minutes.
+For boundary layer measurements MeteoSwis operates 3 automatic tower stations at 150m to 230m above ground. They deliver temperature, humidity, wind, radiation, pressure and sunshine duration every ten minutes.
 
 ### 3.1. Data granularity, update frequency, format and volume
 If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`),
