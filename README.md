@@ -8,14 +8,14 @@ MeteoSwiss operates a network of [land-based weather stations](https://www.meteo
 
 The following measurements (1-6) and additional observations - manual recording of cloud cover (7) and vegetation development (8) - are available:
 
-1. [Automatic weather stations](#1-automatic-weather-stations) :yellow_circle: *in review by surface data team*
-2. [Automatic precipitation stations](#2-automatic-precipitation-stations) :yellow_circle: *in review by surface data team*
-3. [Automatic tower stations](#3-automatic-tower-stations) :yellow_circle: *in review by surface data team*
-4. [Manual precipitation stations](#4-manual-precipitation-stations) :yellow_circle: *in review by surface data team*
-5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations) :yellow_circle: *in review by surface data team*
-6. [Pollen stations](#6-pollen-stations) :yellow_circle: *in review by surface data team*
-7. [Meteorological visual observations](#7-meteorological-visual-observations)
-8. [Phenological observations](#8-phenological-observations)
+1. [Automatic weather stations](#1-automatic-weather-stations) :green_circle: *reviewed by MDI*
+2. [Automatic precipitation stations](#2-automatic-precipitation-stations) :yellow_circle: *in review by MDI*
+3. [Automatic tower stations](#3-automatic-tower-stations) :green_circle: *reviewed by MDI*
+4. [Manual precipitation stations](#4-manual-precipitation-stations) :yellow_circle: *in review by MDI*
+5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations) :yellow_circle: *in review by MDI*
+6. [Pollen stations](#6-pollen-stations) :yellow_circle: *in review by MDSB*
+7. [Meteorological visual observations](#7-meteorological-visual-observations) :yellow_circle: *in review by MDI*
+8. [Phenological observations](#8-phenological-observations) :yellow_circle: *in review by MDI*
 
 ### General information
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
