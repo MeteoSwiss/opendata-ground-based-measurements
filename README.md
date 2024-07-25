@@ -21,7 +21,7 @@ The following measurements (1-6) and additional observations - manual recording 
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
 
 > [!NOTE]
-> If you require hourly, daily, monthly or annual values, we strongly recommend that you **download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity)**. Various [update frequencies](https://github.com/MeteoSwiss/ogd-general/tree/main#data-structure-and-update-cycle) (every 10 minutes to once a year) are available. 
+> If you require hourly, daily, monthly or annual values, we strongly recommend that you **download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity)**. Various [update frequencies](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) (every 10 minutes to once a year) are available. 
 
 ---
 
@@ -34,7 +34,7 @@ The network is supplemented by around 100 [automatic precipitation stations](htt
 > For **climate analyses**, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data) instead.
 
 ### 1.1. Data granularity, update frequency, format and volume
-If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data ](https://github.com/MeteoSwiss/ogd-general/tree/main#data-) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
+If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
 
 Time series can begin before the introduction of automatic measurements in the year 1981; the at least three manually measured values per day are stored as individual 10-minute values ([synoptic observations](https://community.wmo.int/en/observation-components-global-observing-system)).
 
@@ -69,7 +69,7 @@ As a meteorological parameter, precipitation exhibits a very high spatial variab
 > For **climate analyses**, use the corresponding [homogeneous time series data](https://github.com/MeteoSwiss/opendata-climate-data/blob/main/README.md#d-climate-data) instead.
 
 ### 2.1. Data granularity, update frequency, format and volume
-If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`).
+If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`).
 
 Time series can begin before the introduction of automatic measurements in the year 1981; the three manually measured values per day are stored as individual 10-minute values (synoptic observations).
 
@@ -99,7 +99,7 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 For boundary layer measurements MeteoSwis operates 3 automatic tower stations at 150m to 230m above ground. They deliver temperature, humidity, wind, radiation, pressure and sunshine duration every ten minutes.
 
 ### 3.1. Data granularity, update frequency, format and volume
-If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/ogd-general/tree/main#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`),
+If you require hourly, daily, monthly or annual values, we strongly recommend that you download the corresponding aggregated [data granularity](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#data-granularity) `T`, `H`, `D`, `M`, `Y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`),
 
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ≤5.3 MB per file.
 
