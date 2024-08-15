@@ -198,6 +198,8 @@ Additionally since 2023 the new [automatic pollen network](https://www.meteoswis
 ### 6.1. Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `h`, `d`, `m`, `y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
 
+The granularities `h` and `d` contain average pollen concentrations, while the granularities `m` and `y` contain pollen integrals.
+
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of 0.6 MB per file.
 
 See example data files for station `PBS` (set in lower case) for granularities `h` and `d` and update frequencies `recent` and `historical`: [`ogd-pollen_pbs_(data granularity)_(update frequency).csv`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/swiss-pollen-monitoring-stations-pollen).
