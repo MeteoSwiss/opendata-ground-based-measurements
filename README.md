@@ -263,10 +263,10 @@ Data structure conforms to the example data files for granularity `y` and update
 
 | Parameter        | Description              | Format           | Note                                              |
 | :---             | :---                     | :---             | :---                                              |
-| `param_id`       | Parameter identification | `Number`         | see [8.2. Parameter metadata](#8-2--parameter-metadata) |
-| `nat_abbr`       | Station abbreviation     | `Text`           | see [8.3. Station metadata](#8-3--station-metadata)     |
+| `param_id`       | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
+| `nat_abbr`       | Station abbreviation     | `Text`           | see [Station metadata](#83-station-metadata)      |
 | `reference_year` | Reference year           | `YYYY`           |                                                   |
-| `value`          | Date of observation      | `YYYYMMDDv       |                                                   |
+| `value`          | Date of observation      | `YYYYMMDD`       |                                                   |
 | `doy`            | Day of year              | `Number`         | `Negative values`: Observation in the year preceding the reference year <br> `Values greater than 365`: Observation in the year following the reference year <br> |
 
 ### 8.2. Parameter metadata
