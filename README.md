@@ -267,20 +267,20 @@ Data structure conforms to the example data files for granularity `y` and update
 | `nat_abbr`       | Station abbreviation     | `Text`           | see [Station metadata](#83-station-metadata)      |
 | `reference_year` | Reference year           | `YYYY`           |                                                   |
 | `value`          | Date of observation      | `YYYYMMDD`       |                                                   |
-| `doy`            | Day of year              | `Number`         | `Negative values`: Observation in the year preceding the reference year. <br> `Values greater than 365`: Observation in the year following the reference year. <br> |
+| `doy`            | Day of year              | `Number`         | `negative values`: Observation in the year preceding the reference year. <br> `values greater than 365`: Observation in the year following the reference year. <br> |
 
 ### 8.2. Parameter metadata
 The available parameters are listed in the example parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
 
-| Variable name     | Description                                     | Format           | Example value                                     | Note                      |
-| :---              | :---                                            | :---             | :---                                              | :---                      |
-| `param_id`        | Parameter identification                        | `Number`         | `601`                                             |                           |
-| `param_shortname` | Parameter shortname                             | `Integer`        | `maesh13d`                                        |                           |
-| `scientific name` | Plant's scientific name + phenophase in English | `String`         | `Aesculus hippocastanum - leaf unfolding (50%)`   | `Phenophase`: An observable stage or phase in the annual life cycle of a plant that can be defined by a start and end point. <!-- Phenophases generally have a duration of a few days or weeks. Examples include the period over which newly emerging leaves are visible, or the period over which open flowers are present on a plant. --> |
-| `desc_english`    | Plant's common name + phenophase in English     | `String`         | `Horse chestnut - leaf unfolding (50%)`           |                           |
-| `desc_deutsch`    | Plant's common name + phenophase in German      | `String`         | `Rosskastanie - Blattentfaltung (50%)`            |                           |
-| `desc_italiano`   | Plant's common name + phenophase in Italian     | `String`         | `Ippocastano - spiegamento delle foglie (50%)`    |                           |
-| `desc_français`   | Plant's common name + phenophase in Italian     | `String`         | `Marronnier - déploiement des feuilles (50%)`     |                           |
+| Variable name     | Description                                      | Format           | Example value                                   | Note                     |
+| :---              | :---                                             | :---             | :---                                            | :---                     |
+| `param_id`        | Parameter identification                         | `Number`         | `601`                                           |                          |
+| `param_shortname` | Parameter shortname                              | `Integer`        | `maesh13d`                                      |                          |
+| `scientific name` | Plant's scientific name + phenophase* in English | `String`         | `Aesculus hippocastanum - leaf unfolding (50%)` | *`phenophase`: An observable stage or phase in the annual life cycle of a plant that can be defined by a start and end point. <!-- Phenophases generally have a duration of a few days or weeks. Examples include the period over which newly emerging leaves are visible, or the period over which open flowers are present on a plant. --> |
+| `desc_english`    | Plant's common name + phenophase* in English     | `String`         | `Horse chestnut - leaf unfolding (50%)`         |                          |
+| `desc_deutsch`    | Plant's common name + phenophase* in German      | `String`         | `Rosskastanie - Blattentfaltung (50%)`          |                          |
+| `desc_italiano`   | Plant's common name + phenophase* in Italian     | `String`         | `Ippocastano - spiegamento delle foglie (50%)`  |                          |
+| `desc_français`   | Plant's common name + phenophase* in Italian     | `String`         | `Marronnier - déploiement des feuilles (50%)`   |                          |
 
 <!-- #### Codes -->
 <!-- ... -->
