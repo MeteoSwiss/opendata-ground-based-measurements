@@ -254,17 +254,30 @@ See e.g. MeteoSwiss' [OBS network map](https://www.meteoswiss.admin.ch/services-
 ## 8. Phenological observations
 The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of around 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
-### 8.1. Data granularity, update frequency, format and volume
+### 8.1. Data granularity, update frequency, format, volume and structure
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) daily (`recent`) or yearly (`historical`) for each station.
 
 Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#column-separators-decimal-dividers-and-missing-values) with an estimated volume of ≤7.1 MB per file.
 
-See example data files for granularity `y` and update frequencies `recent` and `historical`: [`ogd-phenology_(station identifier)_y_(update frequency).csv`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/phenology).
+Data structure conforms to the example data files for granularity `y` and update frequencies `recent` and `historical`: [`ogd-phenology_(station identifier)_y_(update frequency).csv`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/phenology).
+
+| Parameter        | Description              | Format           | Note                                              |
+| :---             | :---                     | :---             | :---                                              |
+| ´param_id´       | Parameter identification | ´Number´         | see [Parameter metadata](#8-2-parameter-metadata) |
+| ´nat_abbr´       | Station abbreviation     | ´Text´           | see [Station metadata](#8-3-station-metadata)     |
+| ´reference_year´ | Reference year           | ´YYYY´           |                                                   |
+| ´value´          | Date of observation      | ´YYYYMMDD´       |                                                   |
+| ´doy´            | Day of year              | ´Number´         | - Negative values: Observation in the year preceding the reference year <br> - Values greater than 365: Observation in the year following the reference year <br> |
 
 ### 8.2. Parameter metadata
-See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
+See example parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
 
-<!-- ### Codes -->
+<!-- #### Parameters -->
+<!-- The parameters available for download are listed below along with a description and the unit of the parameter. -->
+<!-- Name  Unit  Description  Data update frequency  Available for Denmark  Available for Greenland and Faroe Islands -->
+<!-- temp_dry  °C  Present air temperature measured 2 m over terrain  10 min  X  X -->
+
+<!-- #### Codes -->
 <!-- ... -->
 
 ### 8.3. Station metadata
