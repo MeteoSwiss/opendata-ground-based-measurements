@@ -14,7 +14,7 @@ The following measurements (1-6) and additional observations - manual recording 
 4. [Manual precipitation stations](#4-manual-precipitation-stations) :green_circle: *reviewed by MDI*
 5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations) :yellow_circle: *in review by MDI*
 6. [Pollen stations](#6-pollen-stations) :green_circle: *reviewed by MDSB*
-7. [Meteorological visual observations](#7-meteorological-visual-observations) :yellow_circle: *in review by MDI*
+7. [Meteorological visual observations](#7-meteorological-visual-observations) :green_circle: *reviewed by MDI*
 8. [Phenological observations](#8-phenological-observations) :yellow_circle: *in review by MDI*
 
 ### General information
