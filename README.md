@@ -276,7 +276,7 @@ See example parameter metadata file of [data granularity](https://github.com/Met
 | :---              | :---                                 | :---             | :---                                              | :---                             |
 | `param_id`        | Parameter identification             | `Number`         | `601`                                             |                                  |
 | `param_shortname` | Parameter shortname                  | `Integer`        | `maesh13d`                                        |                                  |
-| `scientific name` | Plant's scientific name + phenophase | `String`         | `Aesculus hippocastanum - leaf unfolding (50%)`   | `Phenophase`: An observable stage or phase in the annual life cycle of a plant that can be defined by a start and end point. Phenophases generally have a duration of a few days or weeks. Examples include the period over which newly emerging leaves are visible, or the period over which open flowers are present on a plant. |
+| `scientific name` | Plant's scientific name + phenophase | `String`         | `Aesculus hippocastanum - leaf unfolding (50%)`   | `Phenophase`: An observable stage or phase in the annual life cycle of a plant that can be defined by a start and end point. <!-- Phenophases generally have a duration of a few days or weeks. Examples include the period over which newly emerging leaves are visible, or the period over which open flowers are present on a plant. --> |
 
 | `desc_english`    | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
 | `desc_deutsch`    | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
