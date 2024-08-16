@@ -15,7 +15,7 @@ The following measurements (1-6) and additional observations - manual recording 
 5. [Totaliser precipitation stations](#5-totaliser-precipitation-stations) :yellow_circle: *in review by MDI*
 6. [Pollen stations](#6-pollen-stations) :green_circle: *reviewed by MDSB*
 7. [Meteorological visual observations](#7-meteorological-visual-observations) :green_circle: *reviewed by MDI*
-8. [Phenological observations](#8-phenological-observations) :yellow_circle: *in review by MDI*
+8. [Phenological observations](#8-phenological-observations) :green_circle: *reviewed by MDI*
 
 ### General information
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier (in lower case) in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
@@ -267,10 +267,21 @@ Data structure conforms to the example data files for granularity `y` and update
 | `nat_abbr`       | Station abbreviation     | `Text`           | see [Station metadata](#83-station-metadata)      |
 | `reference_year` | Reference year           | `YYYY`           |                                                   |
 | `value`          | Date of observation      | `YYYYMMDD`       |                                                   |
-| `doy`            | Day of year              | `Number`         | `Negative values`: Observation in the year preceding the reference year; <br>`Values greater than 365`: Observation in the year following the reference year <br> |
+| `doy`            | Day of year              | `Number`         | `Negative values`: Observation in the year preceding the reference year. <br> `Values greater than 365`: Observation in the year following the reference year. <br> |
 
 ### 8.2. Parameter metadata
 See example parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
+
+| Variable name     | Description                          | Format           | Example value                                     | Note                             |
+| :---              | :---                                 | :---             | :---                                              | :---                             |
+| `param_id`        | Parameter identification             | `Number`         | `601`                                             |                                  |
+| `param_shortname` | Parameter shortname                  | `Integer`        | `maesh13d`                                        |                                  |
+| `scientific name` | Plant's scientific name + phenophase | `String`         | `Aesculus hippocastanum - leaf unfolding (50%)`   | `Phenophase`: An observable stage or phase in the annual life cycle of a plant that can be defined by a start and end point. Phenophases generally have a duration of a few days or weeks. Examples include the period over which newly emerging leaves are visible, or the period over which open flowers are present on a plant. |
+
+| `desc_english`    | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
+| `desc_deutsch`    | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
+| `desc_italiano`   | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
+| `desc_français` | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
 
 <!-- #### Parameters -->
 <!-- The parameters available for download are listed below along with a description and the unit of the parameter. -->
