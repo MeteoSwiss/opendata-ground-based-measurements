@@ -270,23 +270,17 @@ Data structure conforms to the example data files for granularity `y` and update
 | `doy`            | Day of year              | `Number`         | `Negative values`: Observation in the year preceding the reference year. <br> `Values greater than 365`: Observation in the year following the reference year. <br> |
 
 ### 8.2. Parameter metadata
-See example parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
+The available parameters are listed in the example parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
 
-| Variable name     | Description                          | Format           | Example value                                     | Note                             |
-| :---              | :---                                 | :---             | :---                                              | :---                             |
-| `param_id`        | Parameter identification             | `Number`         | `601`                                             |                                  |
-| `param_shortname` | Parameter shortname                  | `Integer`        | `maesh13d`                                        |                                  |
-| `scientific name` | Plant's scientific name + phenophase | `String`         | `Aesculus hippocastanum - leaf unfolding (50%)`   | `Phenophase`: An observable stage or phase in the annual life cycle of a plant that can be defined by a start and end point. <!-- Phenophases generally have a duration of a few days or weeks. Examples include the period over which newly emerging leaves are visible, or the period over which open flowers are present on a plant. --> |
-
-| `desc_english`    | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
-| `desc_deutsch`    | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
-| `desc_italiano`   | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
-| `desc_français` | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
-
-<!-- #### Parameters -->
-<!-- The parameters available for download are listed below along with a description and the unit of the parameter. -->
-<!-- Name  Unit  Description  Data update frequency  Available for Denmark  Available for Greenland and Faroe Islands -->
-<!-- temp_dry  °C  Present air temperature measured 2 m over terrain  10 min  X  X -->
+| Variable name     | Description                                     | Format           | Example value                                     | Note                      |
+| :---              | :---                                            | :---             | :---                                              | :---                      |
+| `param_id`        | Parameter identification                        | `Number`         | `601`                                             |                           |
+| `param_shortname` | Parameter shortname                             | `Integer`        | `maesh13d`                                        |                           |
+| `scientific name` | Plant's scientific name + phenophase in English | `String`         | `Aesculus hippocastanum - leaf unfolding (50%)`   | `Phenophase`: An observable stage or phase in the annual life cycle of a plant that can be defined by a start and end point. <!-- Phenophases generally have a duration of a few days or weeks. Examples include the period over which newly emerging leaves are visible, or the period over which open flowers are present on a plant. --> |
+| `desc_english`    | Plant's common name + phenophase in English     | `String`         | `Horse chestnut - leaf unfolding (50%)`           |                           |
+| `desc_deutsch`    | Plant's common name + phenophase in German      | `String`         | `Rosskastanie - Blattentfaltung (50%)`            |                           |
+| `desc_italiano`   | Plant's common name + phenophase in Italian     | `String`         | `Ippocastano - spiegamento delle foglie (50%)`    |                           |
+| `desc_français`   | Plant's common name + phenophase in Italian     | `String`         | `Marronnier - déploiement des feuilles (50%)`     |                           |
 
 <!-- #### Codes -->
 <!-- ... -->
