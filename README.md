@@ -261,13 +261,13 @@ Data format is [`CSV`](https://github.com/MeteoSwiss/opendata-download?tab=readm
 
 Data structure conforms to the example data files for granularity `y` and update frequencies `recent` and `historical`: [`ogd-phenology_(station identifier)_y_(update frequency).csv`](https://github.com/MeteoSwiss/publication-opendata/tree/main/data-surface/phenology).
 
-| Parameter        | Description              | Format           | Note                                              |
+| Variable name    | Description              | Format           | Note                                              |
 | :---             | :---                     | :---             | :---                                              |
 | `param_id`       | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
 | `nat_abbr`       | Station abbreviation     | `Text`           | see [Station metadata](#83-station-metadata)      |
 | `reference_year` | Reference year           | `YYYY`           |                                                   |
 | `value`          | Date of observation      | `YYYYMMDD`       |                                                   |
-| `doy`            | Day of year              | `Number`         | `Negative values`: Observation in the year preceding the reference year <br> `Values greater than 365`: Observation in the year following the reference year <br> |
+| `doy`            | Day of year              | `Number`         | - `Negative values`: Observation in the year preceding the reference year <br> - `Values greater than 365`: Observation in the year following the reference year <br> |
 
 ### 8.2. Parameter metadata
 See example parameter metadata file of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`y`](https://github.com/MeteoSwiss/publication-opendata/blob/main/data-surface/metadaten-parameter/metadata-parameter-phenology-Y.csv).
