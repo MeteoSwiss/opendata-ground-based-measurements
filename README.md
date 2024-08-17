@@ -286,7 +286,24 @@ The available parameters are listed in the example parameter metadata file of [d
 <!-- ... -->
 
 ### 8.3. Station metadata
-See example [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv).
+The available parameters are listed in the example [station metadata file](https://data.geo.admin.ch/ch.meteoschweiz.messnetz-phaenologie/ch.meteoschweiz.messnetz-phaenologie_en.csv).
+
+| Variable name     | Description                               | Format/Unit             | Example value       | Note                     |
+| :---              | :---                                      | :---                    | :---                | :---                     |
+| `Station`         | Station name                              | `Text`                  | `St. Gallen`        |                          |
+| `Abbr.`           | Station abbreviation                      | `Text`                  | `STG`               |                          |
+| `WIGOS-ID`        | WIGOS Station identifier (`WSI`)          | `4 Block Number`        | `0-20000-0-06681`   | [`WSI`](https://community.wmo.int/en/activity-areas/WIGOS/implementation-WIGOS/WIGOS-station-identifier) is used to register an observing station or platform in the [OSCAR/Surface database](https://space.oscar.wmo.int/). |
+| `Station type`    | Station type                              | `Text`                  | `Phenology station` |                          |
+| `Data Owner`      | Data Owner                                | `Text`                  | `MeteoSwiss`        |                          |
+| `Station height m a. sea level` | Station height              | `Meter above sea level` | `711`               |                          |
+| `CoordinatesE`    | [Swiss coordinates system LV95](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system), East      | `Number`          | `2746301`  |    |
+| `CoordinatesN`    | [Swiss coordinates system LV95](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system), North     | `Number`          | `1255286`  |    |
+| `Latitude`        | [Global WGS84 GPS coordinates](https://www.swisstopo.admin.ch/en/coordinates-conversion-navref), Latitude  | `Decimal degrees` | `47.432103`|    |
+| `Longitude`       | [Global WGS84 GPS coordinates](https://www.swisstopo.admin.ch/en/coordinates-conversion-navref), Longitude | `Decimal degrees` | `9.378022` |    |
+| `Exposition`      | *to be explained*                         | `Text`                  | `plain`             |                          |
+| `Canton`          | Swiss canton abreviation                  | `Text`                  | `SG`                |                          |
+| `Measurements`    | List of observed plants, scientific names | `Text`                  | `Aesculus hippocastanum, Fagus sylvatica, Acer pseudoplatanus, Sorbus aucuparia, Corylus avellana, Tilia platyphyllos, Sambucus nigra, Tilia cordata, Larix decidua, Picea abies, Robinia pseudoacacia, Betula pendula, Castanea sativa, Tussilago farfara, Anemone nemorosa, Dactylis glomerata, Taraxacum officinale, Cardamine pratensis, Leucanthemum vulgare, Colchicum autumnale, Prunus avium, Pyrus communis, Malus domestica, Hay` |    |
+| `Link`            | More information about the station and the start date of observations (per plant) | `URL`                   | `https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&station=STG` |   |
 
 ### 8.4. Data visualisation
 See e.g. MeteoSwiss' [PHENOLOGY network map](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-phaenologie&lang=en&table=false).
