@@ -51,6 +51,9 @@ See example parameter metadata files of [data granularity](https://github.com/Me
 The productive version will provide a single parameter metadata file for all granularities; file name: `ogd-smn_meta_parameters.csv`.
 
 <!-- **Codes** -->
+sremaxyv	1 	%	471 	Sonnenscheindauer; Verhältnis der Jahressumme zur maximal Möglichen
+sremaxmv	1 	%	349 	Sonnenscheindauer; Verhältnis der Monatssumme zur maximal Möglichen
+sremaxdv	1 	%	222 	Sonnenscheindauer; relativ zur absolut möglichen Tagessumme
 <!-- ... -->
 
 ### 1.3. Station metadata
