@@ -266,7 +266,7 @@ Data structure conforms to the example data files for granularity `y` and update
 
 | Variable name    | Description              | Format           | Note                                              |
 | :---             | :---                     | :---             | :---                                              |
-| `param_id`       | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
+| `param_id` `rgb(9, 105, 218)`       | Parameter identification | `Number`         | see [Parameter metadata](#82-parameter-metadata)  |
 | `nat_abbr`       | Station abbreviation     | `Text`           | see [Station metadata](#83-station-metadata)      |
 | `reference_year` | Reference year           | `YYYY`           |                                                   |
 | `value`          | Date of observation      | `YYYYMMDD`       |                                                   |
