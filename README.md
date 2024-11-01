@@ -8,8 +8,8 @@ MeteoSwiss operates a network of [land-based weather stations](https://www.meteo
 
 The following measurements (1-3; 5-7) and additional observations - manual recording of cloud cover (8) and vegetation development (8) - are available:
 
-1. [Automatic weather stations – Measured values](#1-automatic-weather-stations-measured-values) :green_circle: *Documentation reviewed* | :yellow_circle: *Data generated* | :yellow_circle: *Data integrated*
-2. [Automatic precipitation stations – Measured values](#2-automatic-precipitation-stations-measured-values) :green_circle: *Documentation reviewed* | :red_circle: *Data generated* | :red_circle: *Data integrated*
+1. [Automatic weather stations – Measured values](#1-automatic-weather-stations-measured-values) :green_circle: *Docu reviewed* | :yellow_circle: *Data generated* | :yellow_circle: *Data integrated*
+2. [Automatic precipitation stations – Measured values](#2-automatic-precipitation-stations-measured-values) :green_circle: *Docu reviewed* | :red_circle: *Data generated* | :red_circle: *Data integrated*
 3. [Automatic tower stations – Measured values](#3-automatic-tower-stations-measured-values) :green_circle: *reviewed by MDI*
 4. Automatic soil stations – Measured values *(not yet realised)*
 5. [Manual precipitation stations](#5-manual-precipitation-stations) :green_circle: *reviewed by MDI*
