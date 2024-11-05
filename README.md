@@ -1,4 +1,4 @@
-[MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > A. Ground-based Measurements
+[MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > A - Ground-based Measurements
 
 # A - Ground-based Measurements
 MeteoSwiss operates a network of [land-based weather stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations.html) where current weather and climate data are automatically recorded. It covers all parts of the country and all altitude levels.
@@ -11,7 +11,7 @@ The following measurements (1-3; 5-7) and additional observations - manual recor
 - A1 - [Automatic weather stations - Measured values](#a1---automatic-weather-stations---measured-values)
 - A2 - [Automatic precipitation stations - Measured values](#a2---automatic-precipitation-stations---measured-values)
 - A3 - [Automatic tower stations - Measured values](#a3---automatic-tower-stations---measured-values)
-- A4 - [Automatic soil stations - Measured values]([#a4---automatic-soil-stations---measured-values)
+- A4 - [Automatic soil stations - Measured values]([#a4---automatic-soil-stations---measured-values) *not yet realised*
 - A5 - [Manual precipitation stations - Measured values](#a5---manual-precipitation-stations---measured-values)
 - A6 - [Totaliser precipitation stations - Measured values](#a6---totaliser-precipitation-stations---measured-values)
 - A7 - [Pollen stations- Measured values](#a7---pollen-stations---measured-values)
