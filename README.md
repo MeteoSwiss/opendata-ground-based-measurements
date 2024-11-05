@@ -8,15 +8,15 @@ MeteoSwiss operates a network of [land-based weather stations](https://www.meteo
 
 The following measurements (1-3; 5-7) and additional observations - manual recording of cloud cover (8) and vegetation development (8) - are available:
 
-- A1 [Automatic weather stations – Measured values](#1-automatic-weather-stations-measured-values) :green_circle: *Docu reviewed* | :yellow_circle: *Data generated* | :yellow_circle: *Data integrated*
-- A2 [Automatic precipitation stations – Measured values](#2-automatic-precipitation-stations-measured-values) :green_circle: *Docu reviewed* | :red_circle: *Data generated* | :red_circle: *Data integrated*
-- A3 [Automatic tower stations – Measured values](#3-automatic-tower-stations-measured-values) :green_circle: *reviewed by MDI*
-- A4 Automatic soil stations – Measured values *(not yet realised)*
-- A5 [Manual precipitation stations](#5-manual-precipitation-stations) :green_circle: *reviewed by MDI*
-- A6 [Totaliser precipitation stations](#6-totaliser-precipitation-stations) :yellow_circle: *in review by MDI*
-- A7 [Pollen stations](#7-pollen-stations) :green_circle: *reviewed by MDSB*
-- A8 [Meteorological visual observations](#8-meteorological-visual-observations) :green_circle: *reviewed by MDI*
-- A9 [Phenological observations](#9-phenological-observations) :green_circle: *reviewed by MDI*
+- A1 - [Automatic weather stations – Measured values](#1-automatic-weather-stations-measured-values) :green_circle: *Docu reviewed* | :yellow_circle: *Data generated* | :yellow_circle: *Data integrated*
+- A2 - [Automatic precipitation stations – Measured values](#2-automatic-precipitation-stations-measured-values) :green_circle: *Docu reviewed* | :red_circle: *Data generated* | :red_circle: *Data integrated*
+- A3 - [Automatic tower stations – Measured values](#3-automatic-tower-stations-measured-values) :green_circle: *reviewed by MDI*
+- A4 - Automatic soil stations – Measured values *(not yet realised)*
+- A5 - [Manual precipitation stations](#5-manual-precipitation-stations) :green_circle: *reviewed by MDI*
+- A6 - [Totaliser precipitation stations](#6-totaliser-precipitation-stations) :yellow_circle: *in review by MDI*
+- A7 - [Pollen stations](#7-pollen-stations) :green_circle: *reviewed by MDSB*
+- A8 - [Meteorological visual observations](#8-meteorological-visual-observations) :green_circle: *reviewed by MDI*
+- A9  -[Phenological observations](#9-phenological-observations) :green_circle: *reviewed by MDI*
 
 ### General information
 All MeteoSwiss surface stations have a name and an identfier consisting of three letters (e.g. `BER` for [Bern / Zollikofen](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=BER&chart=hour) or `LUG` for [Lugano](https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-automatisch&lang=en&station=LUG&chart=hour)). Data files use this station identifier (in lower case) in the file name throughout all directories. A list of all station identfiers with station names, coordinates, height etc. can be found in the according 'station metadata' sections below.
