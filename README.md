@@ -100,7 +100,7 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 
 <br>
 
-## 3. Automatic tower stations – Measured values
+## A3 - Automatic tower stations - Measured values
 For boundary layer measurements MeteoSwis operates 3 automatic tower stations at 150m to 230m above ground. They deliver temperature, humidity, wind, radiation, pressure and sunshine duration every ten minutes.
 
 ### 3.1. Data granularity, update frequency, format and volume
@@ -128,12 +128,12 @@ The productive version will provide a station metadata file with the file name: 
 
 <br>
 
-## A4 - Automatic soil stations – Measured values
+## A4 - Automatic soil stations - Measured values
 *(not yet realised)*
 
 <br>
 
-## 5. Manual precipitation stations – Measured values
+## A5 - Manual precipitation stations - Measured values
 In addition to its automatic precipitation measurements (see [1. Automatic weather stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#1-automatic-weather-stations), [2. Automatic precipitation stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#2-automatic-precipitation-stations) and [3. Automatic tower stations](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#3-automatic-tower-stations) above), MeteoSwiss operates a [manual precipitation monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
 
 Measurements are taken once a day and transmitted to MeteoSwiss via SMS. The network comprises around 240 locations, about 190 stations measure rainfall and snow, and about 50 stations measure snow only. Due to their long-series measurements, they are of great climatological significance.
@@ -168,7 +168,7 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 
 <br>
 
-## 6. Totaliser precipitation stations – Measured values
+## A6 - Totaliser precipitation stations - Measured values
 In supplement to [5. Manual precipitation stations – Measured values](https://github.com/MeteoSwiss/opendata-ground-based-measurements/blob/main/README.md#5-manual-precipitation-stations-measured-values) in mountainous areas that are difficult to access, MeteoSwiss operates around 60 totalisers which record the volume of precipitation for an entire year (see section "Totaliser monitoring network – annual readings" [here](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-precipitation-monitoring-network.html).
 
 > [!NOTE]
@@ -199,12 +199,12 @@ See e.g. MeteoSwiss' [SwissMetNet network map](https://www.meteoswiss.admin.ch/s
 
 <br>
 
-## 7. Pollen stations – Measured values
+## A7 - Pollen stations - Measured values
 MeteoSwiss operates the [national pollen monitoring network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/pollen-monitoring-network-manual-method.html). It consists of around 15 monitoring stations which cover Switzerland's most important climatic and vegetation regions. The measurements obtained provide invaluable information for those who suffer from allergies.  <!-- Daily average values are updated once a week and obtained from manual reference counts. -->
 
 Additionally since 2023 the new [automatic pollen network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/automatic-pollen-monitoring-network-swisspollen.html) is operational: for the first time in the world, instead of daily averages being available after a week, airborne pollen concentrations (No/m³, number of grains per cubic metre of air) of Birch, Beech, Oak, Alder, Ash, Grasses and Hazel are available in real time at an hourly resolution.
 
-### 6.1. Data granularity, update frequency, format and volume
+### 7.1. Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `h`, `d`, `m`, `y` and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station.
 
 > [!NOTE]
@@ -228,7 +228,7 @@ See e.g. MeteoSwiss' [POLLEN network map](https://www.meteoswiss.admin.ch/servic
 
 <br>
 
-## 8. Meteorological visual observations
+## A8 - Meteorological visual observations
 MeteoSwiss' data on current weather events is supplemented by [visual human observations](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/manual-observation-network.html), which describe the atmospheric conditions around the observation sites in detail.
 
 Meteorological observers make visual observations and take readings from measurement instruments between two and eight times per day every day of the year at around 20 locations in Switzerland. The following aspects are observed:
@@ -260,7 +260,7 @@ See e.g. MeteoSwiss' [OBS network map](https://www.meteoswiss.admin.ch/services-
 
 <br>
 
-## 9. Phenological observations
+## A9 - Phenological observations
 The [Swiss Phenology Network](https://www.meteoswiss.admin.ch/weather/measurement-systems/land-based-stations/swiss-phenology-network.html) consists of around 160 stations. Some 26 different plant species are observed in order to describe the vegetation development. On the basis of this information, it is possible to investigate the impact of climate change on the vegetation. The observations also serve to generate forecasting models for the start of flowering.
 
 ### 9.1. Data granularity, update frequency, format, volume and structure
