@@ -11,7 +11,7 @@ The following measurements (1-3; 5-7) and additional observations - manual recor
 - A1 - [Automatic weather stations – Measured values](#1-automatic-weather-stations-measured-values)
 - A2 - [Automatic precipitation stations – Measured values](#2-automatic-precipitation-stations-measured-values)
 - A3 - [Automatic tower stations – Measured values](#3-automatic-tower-stations-measured-values)
-- A4 - [Automatic soil stations – Measured values](#a4---automatic-soil-stations-measured-values)
+- A4 - [Automatic soil stations – Measured values]([#a4---automatic-soil-stations--measured-values)
 - A5 - [Manual precipitation stations](#5-manual-precipitation-stations)
 - A6 - [Totaliser precipitation stations](#6-totaliser-precipitation-stations)
 - A7 - [Pollen stations](#7-pollen-stations)
