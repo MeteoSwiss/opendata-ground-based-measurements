@@ -1,3 +1,19 @@
+*Version, status:* v1.2, deprecated / [change log](https://github.com/MeteoSwiss/publication-opendata/commits/main) <br>
+*Maintainer:* Federal Office of Meteorology and Climatology MeteoSwiss, OGD@MeteoSwiss project team
+
+<br>
+
+> [!IMPORTANT]
+> This documentation is no longer up-to-date and will soon be taken offline. **The continuously updated, valid Open Data documentation from MeteoSwiss is [here](https://opendatadocs.meteoswiss.ch).**
+
+<br>
+<br>
+<br>
+
+---
+
+
+
 [MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > A - Ground-based Measurements
 
 # A - Ground-based Measurements
